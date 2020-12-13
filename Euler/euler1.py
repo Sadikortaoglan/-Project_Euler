@@ -1,0 +1,14 @@
+"""toplam=0
+for number in range(0,1000):
+    if number%3==0 or number%5==0:
+        toplam+=number
+print(toplam)
+"""
+
+lessons = []
+lesson = input("Oluşturacağınız Dersleri Giriniz.")
+lessons.append(lesson)
+result = lesson.split()
+print(result)
+
+print("Seçtiğiniz Ders Sayısı", len(lessons))
